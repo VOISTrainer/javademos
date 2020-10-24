@@ -6,7 +6,7 @@ pipeline {
       steps {
         echo 'Hello World!'
         fileExists 'index.jsp'
-        sh 'mvn -f $workspace/pom.xml -B -DskipTests clean package'
+        sh 'mvn -f $workspace/ssgsems/pom.xml -B -DskipTests clean package'
         archiveArtifacts artifacts: '**/target/*.war', fingerprint: true
       }
     }
