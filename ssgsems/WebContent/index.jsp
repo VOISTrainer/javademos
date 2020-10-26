@@ -7,6 +7,7 @@
 <title>My first page</title>
 </head>
 <body>
-	<h1>SSGS IT EDUCON Services Pvt. Ltd.</h1>
+	<h1>SSGS IT EDUCON Services Pvt. Ltd.</h1><br>
+	<h2>Azure DevOps Training and Consulting</h2>
 </body>
 </html>
